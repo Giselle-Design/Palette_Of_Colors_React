@@ -10,8 +10,7 @@ class App extends Component {
        <Palette {...seedColors[4]} />
       </div>
     );
-  }
- 
+  } 
 }
 
 export default App;
