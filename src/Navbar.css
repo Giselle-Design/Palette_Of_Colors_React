@@ -28,7 +28,9 @@
 }
 
 .select-container {
+    margin-left: auto;
     margin-top: 15px;
+    margin-right: 1rem;
 }
 
 .slider {
