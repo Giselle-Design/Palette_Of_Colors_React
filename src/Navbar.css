@@ -24,7 +24,11 @@
 
 
 .slider-container {
-    margin-top: 20px;
+    margin-top: 18px;
+}
+
+.select-container {
+    margin-top: 15px;
 }
 
 .slider {
