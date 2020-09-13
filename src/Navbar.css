@@ -25,6 +25,7 @@
 
 .slider-container {
     margin-top: 18px;
+    margin-left: 15px;
 }
 
 .select-container {
@@ -35,7 +36,7 @@
 
 .slider {
     width: 340px;
-    margin: 0 10px;
+    margin: 0 25px;
     display: inline-block;   
 }
 

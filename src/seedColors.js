@@ -2,7 +2,7 @@ export default [
     {
       paletteName: "Material UI Colors",
       id: "material-ui-colors",
-      emoji: "🎨", 
+      emoji: "🎭", 
       colors: [
         { name: "red", color: "#F44336" },
         { name: "pink", color: "#E91E63" },
@@ -22,13 +22,14 @@ export default [
         { name: "deeporange", color: "#FF5722" },
         { name: "brown", color: "#795548" },
         { name: "grey", color: "#9E9E9E" },
-        { name: "bluegrey", color: "#607D8B" }
+        { name: "bluegrey", color: "#607D8B" },
+        { name: "DeepPink", color: "#8b0a50" }
       ]
     },
     {
       paletteName: "Flat UI Colors v1",
       id: "flat-ui-colors-v1",
-      emoji: "🤙",
+      emoji: "💝",
       colors: [
         { name: "Turquoise", color: "#1abc9c" },
         { name: "Emerald", color: "#2ecc71" },

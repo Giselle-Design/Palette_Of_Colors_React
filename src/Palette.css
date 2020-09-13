@@ -9,13 +9,14 @@
 }
 
 .Palette-footer {
-  background-color: white;
+  background-color: #eceff1;
   height: 5vh;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   font-weight: bold;
   font-family: Satisfy;
+  margin-bottom: 20px;
 
 }
 
