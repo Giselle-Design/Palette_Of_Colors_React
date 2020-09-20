@@ -7,7 +7,8 @@ import "./PaletteList.css";
 const styles = {
 
     root: {
-        backgroundColor: "#ff1ab3",
+        // backgroundColor: "#ff1ab3",
+        background: "linear-gradient(to right, #eaafc8, #654ea3)",
         height: "100vh",
         display:  "flex",
         alignItem: "flex-start",
@@ -27,7 +28,13 @@ const styles = {
     nav: {
         display: "flex",
         width: "100%",
-        justfyContent: "space-between",
+        justifyContent: "space-between",
+        alignItems: "center",
+        fontFamily: "Satisfy",
+        color: "white",
+        "& a": {
+            color: "white"
+        }
     },
 
     palettes: {
@@ -46,8 +53,9 @@ class PaletteList extends Component{
         return (
             <div className={classes.root}>
                 <div className={classes.container}>
-                    <nav classes={classes.nav}>
-                        <h1 className="palette-list">🎨 Palette of Colors</h1>
+                    <nav className={classes.nav}>
+                        <h1>🎨 Palette of Colors</h1>
+                        <Link to="/palette/new">Create Palette</Link>
                     </nav>
                     <div className={classes.palettes}>
                         {palettes.map(palette => (
