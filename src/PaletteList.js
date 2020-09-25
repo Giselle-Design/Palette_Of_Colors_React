@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MiniPalette from './MiniPalette';
+//import link to make link in page.
 import { Link } from "react-router-dom";
 import { withStyles } from '@material-ui/core/styles';
 import styles from "./styles/PaletteListStyles";
