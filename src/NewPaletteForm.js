@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import clsx from 'clsx';
 import classNames from "classnames";
 import { withStyles } from "@material-ui/core/styles";
 import Drawer from '@material-ui/core/Drawer';
@@ -13,6 +12,7 @@ import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import Button from '@material-ui/core/Button';
+import DraggableColorBox from './DraggableColorBox';
 import {ChromePicker} from "react-color";
 
 
@@ -60,6 +60,7 @@ const styles = theme => ({
       },
       content: {
         flexGrow: 1,
+        height: "calc(100vh - 64px)",
         padding: theme.spacing(3),
         transition: theme.transitions.create('margin', {
           easing: theme.transitions.easing.sharp,
@@ -84,7 +85,7 @@ class NewPaletteForm extends Component {
       this.state = {
           open: true,
           currentColor: 'teal',
-          colors: ['green', 'blue', 'purple']
+          colors: ['green', 'blue', 'yellow']
       };
 
       this.updateCurrentColor = this.updateCurrentColor.bind(this);
@@ -121,7 +122,7 @@ class NewPaletteForm extends Component {
       <CssBaseline />
       <AppBar
         position="fixed"
-        className={clsx(classes.appBar, {
+        className={classNames(classes.appBar, {
           [classes.appBarShift]: open,
         })}
       >
@@ -176,11 +177,9 @@ class NewPaletteForm extends Component {
         })}
       >
         <div className={classes.drawerHeader} />
-        <ul>
             {this.state.colors.map(color=>(
-                <li style={{backgroundColor: color}}>{color}</li>
+                <DraggableColorBox color={color}/>
             ))}
-        </ul>
       </main>
     </div>
   );
