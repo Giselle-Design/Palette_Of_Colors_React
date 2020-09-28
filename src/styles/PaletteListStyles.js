@@ -3,7 +3,7 @@ export default {
     root: {
         // backgroundColor: "#ff1ab3",
         background: "linear-gradient(to right, #eaafc8, #654ea3)",
-        height: "100vh",
+        height: "110vh",
         display:  "flex",
         alignItem: "flex-start",
         justifyContent: "center",
@@ -16,8 +16,8 @@ export default {
         alignItems: "flex-start",
         flexDirection: "column",
         flexWrap: "wrap",
-        marginBottom: "25px",
-        // marginTop: "25px"
+        marginTop: "25px",
+        marginBottom: "50px",
     },
 
     nav: {
