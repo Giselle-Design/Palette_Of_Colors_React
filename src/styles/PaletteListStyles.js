@@ -16,6 +16,7 @@ export default {
         alignItems: "flex-start",
         flexDirection: "column",
         flexWrap: "wrap",
+        marginBottom: "25px",
         // marginTop: "25px"
     },
 

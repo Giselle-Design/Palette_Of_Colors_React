@@ -1,7 +1,7 @@
 export default {
     root:{
         backgroundColor: "white",
-        height: "190px",
+        // height: "190px",
         border: "1px solid black",
         borderRadius: "5px",
         padding: "0.5rem",
@@ -13,7 +13,7 @@ export default {
     },
   
     colors:{
-      backgroundColor: "pink",
+      backgroundColor: "#dae1e4",
       height: "150px",
       width: "100%",
       borderRadius: "5px",
