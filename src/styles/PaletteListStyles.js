@@ -3,9 +3,9 @@ export default {
     root: {
         // backgroundColor: "#ff1ab3",
         background: "linear-gradient(to right, #eaafc8, #654ea3)",
-        height: "110vh",
+        height: "100vh",
         display:  "flex",
-        alignItem: "flex-start",
+        alignItems: "flex-start",
         justifyContent: "center",
         
     },
@@ -16,8 +16,8 @@ export default {
         alignItems: "flex-start",
         flexDirection: "column",
         flexWrap: "wrap",
-        marginTop: "25px",
-        marginBottom: "50px",
+        // marginTop: "25px",
+        
     },
 
     nav: {

@@ -57,4 +57,4 @@ const DraggableColorBox = SortableElement( props => {
 
 
 
-export default withStyles(styles)(DraggableColorBox) ;
+export default withStyles(styles)(DraggableColorBox);
