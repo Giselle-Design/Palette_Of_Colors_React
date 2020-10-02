@@ -11,6 +11,7 @@ import IconButton from "@material-ui/core/IconButton";
 import AddToPhotosIcon from "@material-ui/icons/AddToPhotos";
 import Button from "@material-ui/core/Button";
 import styles from "./styles/PaletteFormNavStyles";
+// import AddIcon from './AddIcon'
 
 
 class PaletteFormNav extends Component {

@@ -4,9 +4,10 @@ export default {
         // backgroundColor: "#ff1ab3",
         background: "linear-gradient(to right, #eaafc8, #654ea3)",
         height: "100vh",
-        display:  "flex",
+        display: "flex",
         alignItems: "flex-start",
         justifyContent: "center",
+        overflow: "scroll"
         
     },
 
@@ -16,8 +17,8 @@ export default {
         alignItems: "flex-start",
         flexDirection: "column",
         flexWrap: "wrap",
-        // marginTop: "25px",
-        
+        marginTop: "20px",
+        marginBottom: "20px", 
     },
 
     nav: {
