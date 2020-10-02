@@ -32,7 +32,7 @@ const styles = theme => ({
     marginRight: 20
   },
   navBtns: {
-    marginRight: "1rem",
+       marginRight: "1rem",
     "& a": {
       textDecoration: "none"
     },
