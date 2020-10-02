@@ -77,7 +77,7 @@ class ColorPickerForm extends Component {
                           errorMessages={[
                             "Enter a color name",
                             "Color name must be unique",
-                            "Color already used!"
+                            // "Color already used!"
                           ]}
                        />
                        <Button 
