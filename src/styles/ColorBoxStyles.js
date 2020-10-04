@@ -1,4 +1,3 @@
-
 import  chroma from "chroma-js";
 import sizes from "./sizes";
 export default {
@@ -68,7 +67,6 @@ export default {
         left: "0px",
         bottom: "0px",
         padding: "10px",
-        color: "black",
         letterSpacing: "1px",
         textTransform: "uppercase",
         fontSize: "12px",

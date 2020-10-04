@@ -12,6 +12,7 @@ class MiniPalette extends Component {
     this.deletePalette = this.deletePalette.bind(this);
     // this.handleClick = this.handleClick.bind(this);
   }
+  
   deletePalette(e) {
     e.stopPropagation();
     this.props.handleDelete(this.props.id);

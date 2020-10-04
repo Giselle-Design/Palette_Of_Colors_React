@@ -1,3 +1,4 @@
+import sizes from "./sizes";
 export default {
 
     root: {
@@ -11,6 +12,7 @@ export default {
         
     },
 
+
     container: {
         width: "50%",
         display: "flex",
@@ -19,6 +21,12 @@ export default {
         flexWrap: "wrap",
         marginTop: "20px",
         marginBottom: "20px", 
+        [sizes.down("xl")]: {
+            width: "80%"
+          },
+          [sizes.down("xs")]: {
+            width: "75%"
+          }
     },
 
     nav: {
@@ -38,7 +46,14 @@ export default {
         width: "100%",
         display: "grid",
         gridTemplateColumns: "repeat(3, 30%)",
-        gridGap: "5%",
+        gridGap: "1.5rem",
+        [sizes.down("md")]: {
+            gridTemplateColumns: "repeat(2, 50%)"
+          },
+          [sizes.down("xs")]: {
+            gridTemplateColumns: "repeat(1, 100%)",
+            gridGap: "1.4rem"
+          }
     },
 
     linkColor: {

@@ -64,7 +64,7 @@ class ColorPickerForm extends Component {
                      onChangeComplete={this.updateCurrentColor}
                      className={classes.picker}
                      />
-                  <ValidatorForm onSubmit={this.handleSubmit}>
+                  <ValidatorForm onSubmit={this.handleSubmit} instantValidate={false}>
                        <TextValidator 
                           value={newColorName} 
                           name= "newColorName"
@@ -77,7 +77,7 @@ class ColorPickerForm extends Component {
                           errorMessages={[
                             "Enter a color name",
                             "Color name must be unique",
-                            // "Color already used!"
+                            "Color already used!"
                           ]}
                        />
                        <Button 

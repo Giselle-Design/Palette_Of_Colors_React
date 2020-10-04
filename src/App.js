@@ -83,6 +83,14 @@ class App extends Component {
           />
         )}
         />
+        <Route 
+           render={routeProps => (
+              <PaletteList
+                palettes={this.state.palettes}
+                deletePalette={this.deletePalette}
+                {...routeProps}
+              />
+          )}/>
       </Switch>
       
 
