@@ -12,6 +12,10 @@ export default {
         
     },
 
+    heading: {
+        fontSize: "2rem"
+      },
+
 
     container: {
         width: "50%",
@@ -28,6 +32,7 @@ export default {
             width: "75%"
           }
     },
+
 
     nav: {
         display: "flex",
@@ -46,7 +51,7 @@ export default {
         width: "100%",
         display: "grid",
         gridTemplateColumns: "repeat(3, 30%)",
-        gridGap: "1.5rem",
+        gridGap: "2.5rem",
         [sizes.down("md")]: {
             gridTemplateColumns: "repeat(2, 50%)"
           },
