@@ -18,8 +18,8 @@ class PaletteList extends Component{
             <div className={classes.root}>
                 <div className={classes.container}>
                     <nav className={classes.nav}>
-                        <h1>🎨 Palette of Colors</h1>
-                        <Link to="/palette/new">Create Palette</Link>
+                        <h1>🎨 Palettes </h1>
+                        <Link className={classes.create} to="/palette/new">Create Palette</Link>
                     </nav>
                     <div className={classes.palettes}>
                         {palettes.map(palette => (

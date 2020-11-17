@@ -43,8 +43,9 @@ const styles = theme => ({
   button: {
     margin: "0 0.5rem",
     [sizes.down("xs")]: {
-      margin: "0 0.2rem",
+      margin: "0 0.1rem",
       padding: "0.3rem"
+     
     }
   }
 });

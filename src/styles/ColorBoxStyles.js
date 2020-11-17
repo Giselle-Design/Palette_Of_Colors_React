@@ -23,7 +23,7 @@ export default {
           },
           [sizes.down("xs")]: {
             width: "100%",
-            height: "5%" 
+            height: "6%" 
           }
 
         

@@ -19,6 +19,7 @@ export default {
         alignItems: "center",
         fontWeight: "bold",
         fontFamily: "Satisfy",
+        marginTop: "5px",
         marginBottom: "20px",
       },
       

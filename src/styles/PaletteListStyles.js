@@ -63,6 +63,10 @@ export default {
 
     linkColor: {
         textDecoration: "none",
+    },
+
+    create: {
+      marginRight: "12px"
     }
 
 };
